@@ -1,0 +1,72 @@
+{
+    "alunos": [
+        {
+            "id": "1",
+            "nome": "Jéssica",
+            "idade": 31,
+            "nomeCursos": [
+                "Academia do flutter",
+                "Imersão GetX"
+            ],
+            "cursos": [
+                {
+                    "id": 1,
+                    "nome": "Academia do flutter",
+                    "isAluno": true
+                },
+                {
+                    "id": 2,
+                    "nome": "Imersão GetX",
+                    "isAluno": true
+                }
+            ],
+            "endereco": {
+                "rua": "Rua X",
+                "numero": 200,
+                "CEP": "80730360",
+                "cidade": {
+                    "id": 1,
+                    "nome": "Curitiba"
+                },
+                "telefone": {
+                    "ddd": 41,
+                    "telefone": "41999999999"
+                }
+            }
+        },
+        {
+            "id": "2",
+            "nome": "Yago",
+            "idade": 30,
+            "nomeCursos": [
+                "Academia do flutter",
+                "Imersão GetX"
+            ],
+            "cursos": [
+                {
+                    "id": 1,
+                    "nome": "Academia do flutter",
+                    "isAluno": true
+                },
+                {
+                    "id": 2,
+                    "nome": "Imersão GetX",
+                    "isAluno": false
+                }
+            ],
+            "endereco": {
+                "rua": "Rua X",
+                "numero": 200,
+                "CEP": "80730360",
+                "cidade": {
+                    "id": 1,
+                    "nome": "Curitiba"
+                },
+                "telefone": {
+                    "ddd": 41,
+                    "telefone": "41999999999"
+                }
+            }
+        }
+    ]
+}
